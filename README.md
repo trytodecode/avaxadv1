@@ -37,27 +37,13 @@ contracts with Remix. This token acts as an in-game currency.
 
 Copy and paste your solid smart contract code into Remix. Collect contracts and then deploy them to your custom EVM subnet using Remix's deployment interface.
 
-### 6. Test your app!
+### 6. Test your contract!
 
 ## Game Mechanics
 
-### Token Management
-
-Players can deposit their tokens to earn shares that represent the asset's total cash balance. They can later withdraw tokens according to the shares they own.
-
-### Player management
-
-Each player is represented by a player structure with attributes such as token balance, experience points, achievements, battle wins, count, votes, level and name.
-
-### Game Features
-
-- **Register Player**: Players can register with their name and original attributes which will start the game mode.
-- **Battle**: Engage in battles with other players where the results give you experience points and can give you votes.
-- **Explore**: Players can explore and earn rewards such as coupons or experience points based on a random or predetermined reward system.
-- **Purchase Items**: Spend tokens on in-game items or upgrades to improve the game.
-
-### Leaderboard
-- The contract maintains a scoreboard based on token balances and battle winnings that is updated dynamically as players interact with the system.
+ ## we have to perform transaction of mint and burn 
+ ## and we have to transfer token 
+ ## then we have to check the balance of the address
 
 ## Author:
 kumar sanjeev
